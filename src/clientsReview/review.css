@@ -1,0 +1,70 @@
+.heading{
+    text-align: center;
+    justify-content: space-between;
+}
+.reviewPoint-top{
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    margin: 50px;
+    border: 1px;
+    
+}
+
+.review-point> img{
+    width:30px; 
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.review-info{
+    margin: 60px;
+}
+.wraper-tag{
+    display: flex;
+    flex-direction: nowrap;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 16px;
+    width: 100%;
+}
+.img-tag{
+    position: relative;
+    margin-right: 8px;
+    width: 70px;
+    height: 70%;
+    border-radius: 50%;
+    background-color: #f4f5f8;
+    overflow: hidden;
+}
+.img-tag>img{
+    vertical-align: middle;
+    border-style: none;
+}
+.review-dots{
+    position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+.dot {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 3px solid #f1f1f1;
+    margin: 0 5px;
+    background: #f1f1f1;
+  }
+
+  .dot.active {
+    background: rgb(32, 32, 32);
+  }
+  @media screen and (min-width: 320px) and (max-width: 600px){
+    .heading{
+        margin-top: 30px;
+    }
+    .reviewPoint-top{
+        margin: 0px;
+    }
+  }

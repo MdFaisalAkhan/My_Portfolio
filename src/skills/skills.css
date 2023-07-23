@@ -1,0 +1,57 @@
+.skill{
+    margin: 20px;
+    padding: 10px;
+}
+.progress{
+    
+    display: flex;
+    overflow: hidden;
+    font-size: 0.75rem;
+    margin-top: 5px;
+    height: 1.25rem;
+    border: 2px solid #fff;
+    background-color: #fff;
+    border-radius: 30px;
+}
+.skill_heading{
+    text-align: center;
+    font-size: 2.5rem;
+}
+.caption{
+    font-weight: 500;
+}
+.progress-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    white-space: nowrap;
+    overflow: hidden;
+    border-radius: 30px;
+    width: 86%;
+    background-color: #ef3724 !important;
+    font-size: 12px;
+}
+.info_heading1{
+    display: flex;
+    justify-content: space-between;
+}
+.info_heading{
+    margin-top: 20px;
+    border: 0.25px;
+    width: 45%;
+}
+.wrapper{
+    margin-top: 20px;
+}
+@media screen and (min-width: 320px) and (max-width: 600px){
+    .info_heading1{
+        display: block;
+    }
+    .info_heading{
+    margin-top: 20px;
+    border: 0.25px;
+    width: 100%;
+}
+    
+}
